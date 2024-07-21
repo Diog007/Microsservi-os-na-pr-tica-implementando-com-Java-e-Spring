@@ -6,12 +6,12 @@ import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotNull;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import java.awt.print.Pageable;
 import java.net.URI;
 
 @RestController
@@ -23,7 +23,7 @@ public class PagamentoController {
 
     @GetMapping
     public Page<PagamentoDto> listar(@PageableDefault(size = 10) Pageable paginacao) {
-        return pagamentoService.obterTodos((org.springframework.data.domain.Pageable) paginacao);
+        return pagamentoService.obterTodos(paginacao);
     }
 
     @GetMapping("/{id}")

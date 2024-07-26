@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6923008-aaf6-4005-9b6e-97728393ce4f" name="Changes" comment="" />
+    <list default="true" id="b6923008-aaf6-4005-9b6e-97728393ce4f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagamentos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pagamentos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/src/main/java/com/alurafood/pedidos/PedidosApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/src/main/java/com/alurafood/pedidos/PedidosApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,28 +44,46 @@
 }</component>
   <component name="ProjectId" id="2j6mumBPuXNQTvGsNzhtj2yCAe4" />
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.PagamentosApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.pagamentos [install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GatewayApplication.executor": "Run",
+    "Application.PagamentosApplication.executor": "Run",
+    "Application.PedidosApplication.executor": "Run",
+    "Application.ServerApplication.executor": "Run",
+    "Maven.pagamentos [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/diogo/OneDrive/Documentos/CURSO ALURA MS/pagamentos",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.16341145",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.alurafood.pagamentos.model" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.GatewayApplication">
+    <configuration name="GatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alurafood.gateway.GatewayApplication" />
+      <module name="gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alurafood.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PagamentosApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.alurafood.pagamentos.PagamentosApplication" />
       <module name="pagamentos" />
@@ -72,9 +97,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PedidosApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alurafood.pedidos.PedidosApplication" />
+      <module name="pedidos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alurafood.pedidos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alurafood.server.ServerApplication" />
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alurafood.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GatewayApplication" />
+        <item itemvalue="Application.PedidosApplication" />
         <item itemvalue="Application.PagamentosApplication" />
+        <item itemvalue="Application.ServerApplication" />
       </list>
     </recent_temporary>
   </component>

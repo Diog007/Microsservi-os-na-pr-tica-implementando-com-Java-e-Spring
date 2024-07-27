@@ -6,11 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b6923008-aaf6-4005-9b6e-97728393ce4f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagamentos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pagamentos/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pedidos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pedidos/src/main/java/com/alurafood/pedidos/PedidosApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/src/main/java/com/alurafood/pedidos/PedidosApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pedidos/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +68,7 @@
       <recent name="com.alurafood.pagamentos.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GatewayApplication">
+  <component name="RunManager" selected="Application.PedidosApplication">
     <configuration name="GatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.alurafood.gateway.GatewayApplication" />
       <module name="gateway" />
@@ -125,8 +123,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GatewayApplication" />
         <item itemvalue="Application.PedidosApplication" />
+        <item itemvalue="Application.GatewayApplication" />
         <item itemvalue="Application.PagamentosApplication" />
         <item itemvalue="Application.ServerApplication" />
       </list>
